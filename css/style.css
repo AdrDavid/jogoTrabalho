@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(/img/game.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.box1{
+    background: linear-gradient(90deg, rgb(1, 0, 17) 0%, rgba(0, 44, 70) 49%, rgba(0, 101, 121, 0.9) 100%);
+}
+
+.box2{
+    background: linear-gradient(90deg, rgba(0, 101, 121, 0.9) 0%, rgba(0, 44, 70) 49%, rgb(1, 0, 17) 100%);
+}
+
+.box3{
+    background: linear-gradient(90deg, rgb(1, 0, 17) 0%, rgba(0, 44, 70) 49%, rgba(0, 101, 121, 0.9) 100%);
+}
+
+.jogo{
+    width: 500px;
+    height: 500px;
+    /* background-color: aqua; */
+}
+
+
+.jogo1{
+    background-image: url(/img/ment.png);
+    background-size: cover;
+    background-position: center;
+}
+.jogo2{
+    background-image: url(/img/jk.png);
+    background-size: cover;
+    background-position: center;
+}
+.jogo3{
+    background-image: url(/img/velha.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text{
+    /* float: right; */
+    /* width: 700px; */
+    /* background-color: rgb(68, 68, 68); */
+    display: flex;
+    justify-content: end;
+}
+
+.text a{
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto; /* Redefina a altura automática para dispositivos móveis */
+    }
+
+    .box {
+        width: 100%; /* Reduza a largura para ajustar dispositivos móveis */
+        max-width: none;
+        height: auto;
+        padding: 50px 30px;
+        display: block;
+    }
+
+    .jogo {
+        width: 100%;
+        max-width: none;
+        height: 300px; /* Ajuste a altura para dispositivos móveis */
+    }
+
+    .text{
+        justify-content: center;
+    }
+
+    .text a {
+        font-size: 30px; /* Reduza o tamanho da fonte para dispositivos móveis */
+    }
+}
+
+
