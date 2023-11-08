@@ -60,17 +60,29 @@
 .text{
     /* float: right; */
     /* width: 700px; */
+    /* padding: ; */
+    text-align: center;
     /* background-color: rgb(68, 68, 68); */
-    display: flex;
+    max-width: 650px;
+    /* display: flex; */
     justify-content: end;
 }
 
 .text a{
     font-size: 100px;
     color: white;
+    text-align: center;
+    /* background-color: aqua; */
+    /* width: 100%; */
+    
     text-transform: uppercase;
 }
 
+img{
+    width: 70%;
+    /* margin-left: 15%; */
+    /* margin: ; */
+}
 
 @media screen and (max-width: 768px) {
     .container {
